@@ -3,11 +3,13 @@
     flex-direction: column;
     align-items: flex-start;
   }
-
+  
   .menu {
     flex-direction: column;
+    transition: all 1s cubic-bezier(.215, .61, .355, 1);
     align-items: flex-start;
     width: 100%;
+    gap: 0;
     overflow: hidden;
     height: 0;
   }
@@ -47,7 +49,8 @@
   }
 
   .toggle-active .menu {
-    height: 100%;
+    transition: all 1s cubic-bezier(.215, .61, .355, 1);
+    height: 50vh;
   }
 
   /* Container section menu */
@@ -57,6 +60,7 @@
 
   .container-section ul {
     padding-inline-start: 5px;
+    margin-bottom: 0;
   }
 
   /* Subsection menu*/
@@ -66,6 +70,10 @@
 
   #disabled button {
     padding-left: 0;
+  }
+
+  .search-container{
+    width: 100%;
   }
 
   .search-container ul {
