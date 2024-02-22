@@ -15,12 +15,12 @@
 
   .menu {
     flex-direction: column;
-    transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
     align-items: flex-start;
     width: 100%;
     gap: 0;
     overflow: hidden;
     height: 0;
+    transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
   }
 
   .menu ul {
@@ -88,5 +88,15 @@
 
   .search-container ul {
     padding-left: 0;
+  }
+
+  /* Footer */
+  .footer-page{
+    color: white;
+    backdrop-filter: blur(20px);
+  }
+
+  .footer-page a{
+    color: grey;
   }
 }
