@@ -65,20 +65,19 @@ a {
 
 /* Navbar */
 .header-menu {
-  background-color: #24242c;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   display: flex;
   align-items: center;
+  background-color: #202528;
 }
 
 /* Subsection menu */
 .menu {
   display: flex;
   align-items: center;
-  gap: 25px;
 }
 
 .container-section ul {
