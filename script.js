@@ -9,7 +9,6 @@ footerPage.innerHTML = `<span>Copyright © ${year} : <a href='https://www.develh
 let item = document.querySelector('.icon-hamburger');
 
 //Event to click icon add class on body:
-item.addEventListener("click", function() {
-  document.body.classList.toggle('toggle-active');
+item.addEventListener("click", function () {
+    document.body.classList.toggle('toggle-active');
 });
-
