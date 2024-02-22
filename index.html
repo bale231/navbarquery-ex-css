@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="author" content="Luigi Balestrucci">
+  <meta name="description" content="Exercise Navbar">
+  <meta name="keywords" content="navbar, menu, header page">
+  <!-- Icon -->
+  <link rel="shortcut icon" href="https://student.develhope.co/favicon.ico" />
+  <!-- File CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <!-- Title -->
+  <title>Navbar</title>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Menu page -->
+    <header class="header-menu">
+      <div class="icon-hamburger">
+        <span></span>
+        <span></span>
+      </div>
+      <nav class="menu">
+        <div class="container-section">
+          <ul>
+            <li>
+              <a href="index.html" class="button-home"><strong>Navbar</strong></a>
+            </li>
+            <li>
+              <a href="index.html" class="button-home"><strong>Home</strong></a>
+            </li>
+            <li class="dropdown"><a class="inherit" href="#">Link</a></li>
+            <li>
+              <select name="dropdown" class="inherit">
+                <option>Dropdown</option>
+              </select>
+            </li>
+            <li id="disabled"><button disabled>Disabled</button></li>
+          </ul>
+        </div>
+        <div class="search-container">
+          <ul>
+            <li>
+              <a href="#"><input type="text" placeholder="Search" autofocus max="10" /></a>
+              <a href="#"><input type="button" id="search" value="Search" /></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </div>
+  <!-- Footer Page -->
+  <div class="footer-page"></div>
+
+  <!-- File JS -->
+  <script src="script.js"></script>
+</body>
+
+</html>
